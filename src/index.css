@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 * {
-  scroll-behavior: smooth;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Inter";
+  color: white;
+  background-color: black;
 }

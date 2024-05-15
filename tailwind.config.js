@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         kanji: ["Yuji Syuku"],
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
         serif: ["Playfair Display", "serif"],
       },
     },
