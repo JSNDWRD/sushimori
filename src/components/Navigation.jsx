@@ -20,7 +20,7 @@ const Navigation = () => {
 
   return (
     <div
-      className={`fixed top-0 flex h-24 w-full justify-center bg-black ${isVisible ? "shadow-sm shadow-slate-950/40  transition-all duration-500" : "-translate-y-24 transition-all duration-500"}  max-lg:hidden`}
+      className={`fixed top-0 z-[200] flex h-24 w-full justify-center bg-black ${isVisible ? "shadow-sm shadow-slate-950/40  transition-all duration-500" : "-translate-y-24 transition-all duration-500"}  max-lg:hidden`}
     >
       <nav
         className={`flex  w-full items-center justify-between gap-4 p-2 px-8 text-white`}
@@ -56,11 +56,13 @@ const Navigation = () => {
             <div className="font-kanji text-lg">プロモーション</div>
           </div>
           <div
-            onClick={() => document.getElementById("Location").scrollIntoView()}
+            onClick={() =>
+              document.getElementById("Reservation").scrollIntoView()
+            }
             className="cursor-pointer border-b-2 border-white border-opacity-0 p-2 transition-all hover:border-opacity-100"
           >
-            <div>Location</div>
-            <div className="font-kanji text-lg">場所</div>
+            <div>Reservation</div>
+            <div className="font-kanji text-lg">予約</div>
           </div>
         </div>
       </nav>
