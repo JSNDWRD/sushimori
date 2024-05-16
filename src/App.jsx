@@ -6,6 +6,7 @@ import Reservation from "./components/Reservation";
 import Menu from "./components/Menu";
 import MobileNavigation from "./components/MobileNavigation";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Menu />
       <Deals />
       <Reservation />
+      <Footer />
     </>
   );
 }
