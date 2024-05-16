@@ -24,3 +24,9 @@ Currently, two official plugins are available:
 - <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
 - <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
 - <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
+
+### Deals
+
+- Photo by <a href="https://unsplash.com/@derekduran?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Derek Duran</a> on <a href="https://unsplash.com/photos/sushi-on-white-ceramic-plate-Jz4QMhLvGgw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- Photo by <a href="https://unsplash.com/@tamasp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tamas Pap</a> on <a href="https://unsplash.com/photos/orange-and-white-light-bulb-68Vb4Mj-L9c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
