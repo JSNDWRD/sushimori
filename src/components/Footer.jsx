@@ -22,7 +22,9 @@ const Footer = () => {
   return (
     <footer className="mx-4 flex items-center justify-between border-t-2 border-white/20 px-8 py-4 max-md:flex-col">
       <div>
-        <h1 className="mb-2 font-kanji text-4xl lg:text-6xl">鮨森</h1>
+        <h1 className="mb-2 font-kanji text-4xl max-md:text-center lg:text-6xl">
+          鮨森
+        </h1>
         <p className="text-lg">&copy; 2024 Sushimori.</p>
       </div>
       <div className="flex flex-wrap items-center justify-start gap-2 py-4">
