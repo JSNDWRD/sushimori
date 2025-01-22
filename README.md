@@ -1,32 +1,27 @@
-# React + Vite
+# Sushimori - Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Sushimori**, an online restaurant website dedicated to providing an exceptional dining experience. Explore our menu, discover special sushi dishes, and learn more about our restaurant's story. Whether you're here for a quick meal or a fine dining experience, we have something for everyone.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live website here: [Sushimori](https://sushimori-flame.vercel.app/)
 
-## Credits
+## Technologies Used
 
-### Background Image
+This website is built using the following technologies:
 
-- Photo by <a href="https://unsplash.com/@mahmoud_fawzy100?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mahmoud Fawzy</a> on <a href="https://unsplash.com/photos/brown-and-white-bread-with-chocolate-n1DePkKznLY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- **HTML**: Structure and content.
+- **Tailwind CSS**: Utility-first CSS framework for modern and responsive design.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite.js**: A build tool to improve development speed and performance.
 
-- Photo by <a href="https://unsplash.com/@tamasp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tamas Pap</a> on <a href="https://unsplash.com/photos/orange-flower-with-black-background-zali_zGDWo8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+## Features
 
-### Menu
+- **Menu Showcase**: View a curated menu of sushi dishes with detailed descriptions.
+- **Restaurant Story**: Learn about the history and vision of **Sushimori**.
+- **Responsive Design**: Optimized for both desktop and mobile devices, ensuring an excellent experience on any screen size.
+- **Order Integration**: (Future updates) An easy-to-use system for placing orders directly on the website.
 
-- Photo by <a href="https://unsplash.com/@mahmoud_fawzy100?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mahmoud Fawzy</a> on <a href="https://unsplash.com/photos/white-and-brown-cake-on-black-surface-Wo7zARfuh_4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
-- <a href="https://www.vecteezy.com/free-png/sushi-png">Sushi Png PNGs by Vecteezy</a>
+## Contact
 
-### Deals
-
-- Photo by <a href="https://unsplash.com/@derekduran?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Derek Duran</a> on <a href="https://unsplash.com/photos/sushi-on-white-ceramic-plate-Jz4QMhLvGgw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-- Photo by <a href="https://unsplash.com/@tamasp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tamas Pap</a> on <a href="https://unsplash.com/photos/orange-and-white-light-bulb-68Vb4Mj-L9c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/jason-edward-salim/)
