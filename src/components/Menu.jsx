@@ -26,7 +26,7 @@ const Menu = () => {
               New Menu
             </span>
             <h2 className="mb-4 font-kanji text-8xl ">裏巻き</h2>
-            <p className="font-serif text-xl max-lg:text-base">
+            <p className="text-xl max-lg:text-base">
               with cream cheese and nuts.
             </p>
           </div>
@@ -65,7 +65,7 @@ const Menu = () => {
             return (
               <div
                 key={menu.id}
-                className={` flex flex-col items-center justify-center border-b-2 border-white/20 pb-4 text-center`}
+                className={` flex flex-col items-center justify-center pb-4 text-center`}
               >
                 <h2 className="font-kanji text-xl">{menu.type}</h2>
                 <h2 className="font-kanji text-xl font-medium text-white">

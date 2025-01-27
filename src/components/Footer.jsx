@@ -32,25 +32,25 @@ const Footer = () => {
           onClick={() => document.getElementById("Home").scrollIntoView()}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>Home</div>
+          <p className="text-center">Home</p>
         </div>
         <div
           onClick={() => document.getElementById("About").scrollIntoView()}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>About</div>
+          <p className="text-center">About</p>
         </div>
         <div
           onClick={() => document.getElementById("Menu").scrollIntoView()}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>Menu</div>
+          <p className="text-center">Menu</p>
         </div>
         <div
           onClick={() => document.getElementById("Deals").scrollIntoView()}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>Deals</div>
+          <p className="text-center">Deals</p>
         </div>
         <div
           onClick={() =>
@@ -58,13 +58,13 @@ const Footer = () => {
           }
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>Reservation</div>
+          <p className="text-center">Reservation</p>
         </div>
         <div
           onClick={handleOpenModal}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
-          <div>Image Credit</div>
+          <p className="text-center">Image Credit</p>
         </div>
       </div>
       <Modal show={isModalOpen} onClose={handleCloseModal}>

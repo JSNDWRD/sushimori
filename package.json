@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.18",
     "@fontsource-variable/playfair-display": "^5.0.25",
+    "@fontsource/luxurious-roman": "^5.1.1",
     "@fontsource/poppins": "^5.0.14",
     "@fontsource/yuji-syuku": "^5.0.13",
     "react": "^18.2.0",

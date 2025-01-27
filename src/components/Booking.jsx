@@ -8,8 +8,8 @@ export default function Booking() {
     inputDate: "",
   });
 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
+  const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
@@ -22,8 +22,8 @@ export default function Booking() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isError, setIsError] = useState(false);
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     setIsLoading(true);
     setIsSuccess(false);
     setIsError(false);
@@ -146,7 +146,7 @@ export default function Booking() {
       <button
         type="submit"
         disabled={!isFormFilled || isLoading}
-        className={`${isFormFilled ? "cursor-pointer" : "cursor-not-allowed"} rounded-sm bg-white px-6  py-2 font-semibold text-black hover:bg-gray-50 active:bg-gray-100`}
+        className={`${isFormFilled ? "cursor-pointer" : "cursor-not-allowed"} rounded-sm bg-white px-6  py-2 font-serif font-semibold text-black hover:bg-gray-50 active:bg-gray-100`}
       >
         Reserve
       </button>
