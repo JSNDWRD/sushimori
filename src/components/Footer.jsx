@@ -2,23 +2,23 @@ import {
   FaInstagram,
   FaFacebook,
   FaYoutube,
-  FaBehance,
-  FaDribbble,
+  // FaBehance,
+  // FaDribbble,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import Modal from "./Modal";
-import { useState } from "react";
+// import Modal from "./Modal";
+// import { useState } from "react";
 
 const Footer = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  };
+  // const handleOpenModal = () => {
+  //   setIsModalOpen(true);
+  // };
 
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
+  // const handleCloseModal = () => {
+  //   setIsModalOpen(false);
+  // };
   return (
     <footer className="mx-4 flex items-center justify-between border-t-2 border-white/20 px-8 py-4 max-md:flex-col">
       <div>
@@ -60,14 +60,14 @@ const Footer = () => {
         >
           <p className="text-center">Reservation</p>
         </div>
-        <div
+        {/* <div
           onClick={handleOpenModal}
           className="cursor-pointer border-b-2 border-white border-opacity-0 transition-all hover:border-opacity-100"
         >
           <p className="text-center">Image Credit</p>
-        </div>
+        </div> */}
       </div>
-      <Modal show={isModalOpen} onClose={handleCloseModal}>
+      {/* <Modal show={isModalOpen} onClose={handleCloseModal}>
         <h2 className="mb-4 text-xl font-bold">Image Credit Information</h2>
         <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -176,13 +176,11 @@ const Footer = () => {
             </a>
           </div>{" "}
         </div>
-      </Modal>
+      </Modal> */}
       <div className=" flex flex-wrap justify-center gap-4">
         <FaInstagram size={32} />
         <FaXTwitter size={32} />
         <FaFacebook size={32} />
-        <FaBehance size={32} />
-        <FaDribbble size={32} />
         <FaYoutube size={32} />
       </div>
     </footer>

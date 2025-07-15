@@ -29,8 +29,7 @@ export default function Booking() {
     setIsError(false);
 
     try {
-      // Simulate form submission (replace with your actual form submission logic)
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate a network request
+      await new Promise((resolve) => setTimeout(resolve, 2000));
       setIsSuccess(true);
       setFormData({
         inputFName: "",
